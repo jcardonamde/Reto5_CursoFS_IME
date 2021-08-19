@@ -15,6 +15,10 @@ a {
     display: flex;
     justify-content: space-between;
 }
+.menu a {
+    cursor: pointer;
+    text-decoration: none;
+}
 .menu__title-main {
     align-items: center;
     display: flex;
