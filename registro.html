@@ -42,51 +42,56 @@
     </header>
 
     <!-- Suscripción a la pagina -->
-    <h2>Regístrate</h2>
-    <form action="" method="">
-        <!-- Solicitud de datos Formulario -->
-        <label for="nickname">Nickname</label>
-        <input type="text" placeholder="Ingrese su nickname" required> <br><br>
+    <section class="register">
+        <section class="register__container">
+            <h2>Regístrate</h2>
+            <form class="register__container--form" action="" method="">
+            <!-- Solicitud de datos Formulario -->
+                <label for="nickname">Nickname</label>
+                <input class="register__container--form-input" type="text" placeholder="Ingrese su nickname" required> <br>
 
-        <label for="nombre">Nombre</label>
-        <input type="text" placeholder="Ingrese nombre completo" required> <br><br>
+                <label for="nombre">Nombre</label>
+                <input class="register__container--form-input" type="text" placeholder="Ingrese nombre completo" required> <br>
 
-        <label for="email">Correo electronico</label>
-        <input type="email" placeholder="Ingrese un email valido" required> <br><br>
+                <label for="email">Correo electronico</label>
+                <input class="register__container--form-input" type="email" placeholder="Ingrese un email valido" required> <br>
 
-        <label for="contraseña">Contraseña</label>
-        <input type="password" placeholder="Ingrese una contraseña" required> <br><br>
+                <label for="contraseña">Contraseña</label>
+                <input class="register__container--form-input" type="password" placeholder="Ingrese una contraseña" required> <br>
 
-        <label for="telefono">Telefono</label>
-        <input type="number" placeholder="Ingrese tel. de contacto"> <br><br>
+                <label for="telefono">Telefono</label>
+                <input class="register__container--form-input" type="number" placeholder="Ingrese tel. de contacto"> <br>
 
-        <label for="direccion">Dirección</label>
-        <input type="text" placeholder="Ingrese dirección residencia" required> <br><br>
+                <label for="direccion">Dirección</label>
+                <input class="register__container--form-input" type="text" placeholder="Ingrese dirección residencia" required> <br>
 
-        <label for=""> Sexo
-            <input name="sexoh" type="radio"> Hombre
-            <input name="sexom" type="radio"> Mujer
-            <input name="sexop" type="radio"> Prefiero no decir
-        </label> <br><br>
+                <label for="sexos">Sexo</label>
+                <label class="register__container--form-radio" for="">
+                    <input name="sexoh" type="radio"> Hombre
+                    <input name="sexom" type="radio"> Mujer
+                    <input name="sexor" type="radio"> Reservado
+                </label> <br><br>
 
-        <label for="edad">Edad</label>
-        <input type="number" placeholder="Indica tu edad" required> <br><br>
+                <label for="edad">Edad</label>
+                <input class="register__container--form-input" type="number" placeholder="Indica tu edad" required> <br>
 
-        <label for="fechanacimiento">Fecha de nacimiento</label>
-        <input type="datetime-local"><br><br>
+                <label for="fechanacimiento">Fecha de nacimiento</label>
+                <input class="register__container--form-fecnmto" type="datetime-local"><br>
 
-        <label for="fotoperfil">Elige tu foto de Perfil</label>
-        <input type="file" id="foto_x" name="foto_x"> <br><br>
+                <label for="fotoperfil">Elige tu foto de Perfil</label>
+                <input class="register__container--form-picture" type="file" id="foto_x" name="foto_x"><br><br>
         
-        <label for="">Si deseas dejanos tus comentarios</label><br>
-        <textarea cols="50" rows="7"></textarea> <br><br>
+                <label for="">Si deseas dejanos tus comentarios</label><br>
+                <textarea cols="50" rows="7"></textarea> <br><br>
          
-         <label for="">
-             <input type="checkbox" required> Aceptar politicas y condiciones <a href="/"> Ver Aquí</a>
-         </label> <br><br>
-
-        <button class="">Registrarme</button>
-    </form>
+                <label for="">
+                    <input type="checkbox" required> Aceptar politicas y condiciones<a href="/"> Ver Aquí</a>
+                </label> <br><br>
+                
+                <button class="register__container--done">Registrarme</button>
+            </form>
+        </section>
+    </section>
 
     <!-- Pie de Paginas / Redes Sociales y Politicas -->
     <footer>

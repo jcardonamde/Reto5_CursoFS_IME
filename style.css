@@ -140,6 +140,129 @@ a {
     width: 100px;
 }
 
+/* Estilos para el formulario de Registro */
+.register {
+    background: lightgrey;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin: 30px 0px 40px 0px;
+    min-height: calc(100vh - 200px); 
+}
+.register p {
+    text-decoration: none;
+}
+.register p:hover {
+    text-decoration: underline;
+}
+.register__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 60px 68px 40px;
+    min-height: 500px;
+    width: 255px;
+}
+.register__container h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.register__container--form {
+    display: flex;
+    flex-direction: column;
+}
+.register__container--done {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.register__container--form-input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-family: 'Muli' sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+}
+.register__container--form-radio {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.register__container--form-fecnmto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.register__container--form-picture {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/* Estilos para el formulario de Regala un Poema */
+.gift {
+    background: lightgrey;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin: 30px 0px 40px 0px;
+    min-height: calc(100vh - 200px); 
+}
+.gift p {
+    text-decoration: none;
+}
+.gift p:hover {
+    text-decoration: underline;
+}
+.gift__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 60px 68px 40px;
+    min-height: 500px;
+    width: 350px;
+}
+.gift__container h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -5px;
+}
+.gift__container--form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.gift__container--done {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 7px 7px;
+}
+
+/* Estilos del footer general */
 footer {
     align-items: center;
     background-color: #f2f2f2;
