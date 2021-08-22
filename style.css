@@ -10,10 +10,13 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+/* Estilos para el Barra de menú */
 .menu {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+    padding: auto;
 }
 .menu a {
     cursor: pointer;
@@ -50,10 +53,11 @@ a {
     align-items: center;
     cursor: pointer;
     display: flex;
-    margin-right: 25px;
+    margin-right: 5px;
     width: 25px;
     height: 25px;
 }
+/* Estilos para el sección de Sliders */
 .container {
     background-color: white;
     margin: auto;
@@ -112,34 +116,129 @@ a {
     text-decoration: none;
     width: 20px;  
 }
-.featured ul {
-    list-style: none;
+/* Estilos para el sección de Destacados */
+.featured {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
 .featured__header {
-    margin-top: 50px;
-    width: 100%;
+    font-size: 25px;
+    letter-spacing: 1.56px;
+    margin: 50px 10px 40px 10px;
     text-align: center;
     text-transform: uppercase;
+    width: 100%;
+}
+.featured__container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 15px 25px 65px 0px;
+}
+.featured__poem {
+    text-align: center;
+}
+.featured__poem span {
+    font-weight: 600;
+    letter-spacing: 1.68px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.featured__poem--title-autor {
     font-size: 25px;
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
 }
-.featured__poemoftheday {
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 20px;
+.featured__poem--autor {
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
-.featured__poem1 {
-    position: absolute;
-    left: 10px;
-    top: 550px;
-    width: 450px;
+.featured__poem--content {
+    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: justify;
 }
-.featured__poem2 {
-    position: absolute;
-    right: 10px;
-    top: 550px;
-    width: 100px;
+.featured__poem--readmore {
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 600;
+    margin: 0px 30px 0px 190px;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
+    vertical-align: baseline; 
 }
-
+/* Estilos para el sección del Hilo Twitter */
+.twitter {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 0px 50px 0px;
+    padding: 0;
+}
+.twitter__thread {
+    height: 550px;
+    width: 500px;
+}
+.twitter__astronauta {
+    border-radius: 50px;
+    height: 520px;
+    width: 500px;
+}
+/* Estilos para el formulario de Regala un Poema */
+.gift {
+    background: lightgrey;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin: 30px 0px 40px 0px;
+    min-height: calc(100vh - 200px); 
+}
+.gift p {
+    text-decoration: none;
+}
+.gift p:hover {
+    text-decoration: underline;
+}
+.gift__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 60px 68px 40px;
+    min-height: 500px;
+    width: 350px;
+}
+.gift__container h2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -5px;
+}
+.gift__container--form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.gift__container--done {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 7px 7px;
+}
 /* Estilos para el formulario de Registro */
 .register {
     background: lightgrey;;
@@ -213,55 +312,6 @@ a {
     flex-direction: row;
     margin-top: 15px;
 }
-
-/* Estilos para el formulario de Regala un Poema */
-.gift {
-    background: lightgrey;;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0px 30px;
-    margin: 30px 0px 40px 0px;
-    min-height: calc(100vh - 200px); 
-}
-.gift p {
-    text-decoration: none;
-}
-.gift p:hover {
-    text-decoration: underline;
-}
-.gift__container {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
-    border-radius: 40px;
-    color: blueviolet;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 60px 68px 40px;
-    min-height: 500px;
-    width: 350px;
-}
-.gift__container h2 {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -5px;
-}
-.gift__container--form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 45px;
-}
-.gift__container--done {
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 20px;
-    padding: 7px 7px;
-}
-
 /* Estilos del footer general */
 footer {
     align-items: center;
@@ -273,7 +323,7 @@ footer {
     height: 50px;
     justify-content: space-between;
     position: relative;
-    width: 100%;  
+    width: auto;  
 }
 footer ul {
     display: flex;
