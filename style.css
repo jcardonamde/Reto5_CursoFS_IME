@@ -284,6 +284,9 @@ a {
     padding: 2px 20px;
     text-align: start;
 }
+.gift__container--form-comment {
+    resize: none;
+}
 /* Estilos para el formulario de Registro */
 .register {
     background: lightgrey;;
@@ -356,6 +359,9 @@ a {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
+}
+.register__container--form-comment {
+    resize: none;
 }
 /* Estilos del footer general */
 footer {
