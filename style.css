@@ -392,3 +392,160 @@ footer ul li a {
     margin: 10px;
     color: #5f6368;
 }
+/* Estilos Responsive */
+@media (max-width: 760px) {
+    .menu {
+        display: flex;
+        margin-bottom: 30px;
+        padding: auto;
+        width: auto;
+    }
+    .menu__title-main {
+        align-items: flex-start;
+        font-size: 15px;
+        margin: 25px;
+        padding: 0;
+    }
+    .menu__nav-section {
+        display: inline-flex;
+        font-size: 11px;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .menu__nav-section li {
+        margin-right: 10px;
+    }
+    .menu__nav-section li:hover {
+        text-decoration: underline purple;
+    }
+    .menu__home-search {
+        margin: 0;
+        padding: 0;
+        visibility: hidden;
+        width: 0px;
+    }
+    .menu__home-icon {
+        margin: 0;
+        padding: 0;
+        width: 25px;
+        height: 25px;
+    }
+    main {
+        width: auto;
+    }
+    .container {
+        background-color: white;
+        height: 200px;
+        padding: 30px;
+        width: 400px;
+    }
+    .container__slider {
+        height: 150px;
+        width: 400px; 
+    }
+    .container__slider li img {
+        height: 175px;
+    }
+    .container__slider-menu {
+        margin: 12px;
+    }
+    .container__slider-menu li a {
+        background-color: lightgray;
+        color: purple;
+        font-size: 12px;
+        font-weight: bold;
+        height: 17px;
+        width: 17px;  
+    }
+    .featured {
+        display: flex;
+        flex-direction: column;
+    }
+    .featured__header {
+        font-size: 23px;
+        margin: 50px 12%;
+        padding: 0;
+    }
+    .featured__container {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0px 10px 0px;
+    }
+    .featured__container li {
+        margin-bottom: 70px;
+    }
+    .featured__poem span {
+        color: #56070C;
+        font-weight: 700;
+    }
+    .featured__poem--title-autor {
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .featured__poem--content {
+        text-align: center;
+        padding-right: 250px;
+    }
+    .featured__poem--content p {
+        align-items: center;
+        justify-content: center;
+        margin-left: 60%;
+    }
+    .featured__poem--readmore {
+        margin: 0px 45%;
+        text-align: center;
+        text-decoration: none;
+    }
+    .featured__poem--readmore:hover {
+        color: purple;
+        text-decoration: underline;
+    }
+    .separator__home {
+        border: 2px solid gray;
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    .twitter {
+        flex-direction: column;
+        margin: 0px 0px 60px 0px;
+        padding: 0;
+    }
+    .twitter__thread {
+        height: 420px;
+        margin-bottom: 130px;
+        width: 420px;
+    }
+    .twitter__astronauta {
+        border-radius: 50px;
+        height: 420px;
+        width: 420px;
+    }
+    footer {
+        display: flex;
+        font-size: 12px;
+        height: 180px;
+        width: auto;  
+    }
+    footer ul {
+        flex-direction: column;
+    }
+    .footer-left {
+        justify-self: left;
+        padding-top: 5px;
+    }
+    .footer-right {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+    footer ul li {
+        margin: 4px;
+    }
+    footer ul li a {
+        color: blueviolet;
+        opacity: 0.95;
+    }
+}
